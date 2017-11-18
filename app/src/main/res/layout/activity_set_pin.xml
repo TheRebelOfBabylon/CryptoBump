@@ -6,4 +6,67 @@
     android:layout_height="match_parent"
     tools:context="crypto.bump.SetPinActivity">
 
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="66dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="84dp"
+        android:ems="10"
+        android:inputType="numberPassword"
+        android:maxLength="1"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/editText3"
+        app:layout_constraintTop_toTopOf="parent" ></EditText>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="66dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="84dp"
+        android:ems="10"
+        android:inputType="numberPassword"
+        android:maxLength="1"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/editText4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/editText2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="66dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="84dp"
+        android:ems="10"
+        android:inputType="numberPassword"
+        android:maxLength="1"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/editText3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/editText1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="66dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="84dp"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:inputType="numberPassword"
+        android:maxLength="1"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/editText2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <requestFocus>-
+            //Makes app focus here first
+        </requestFocus>
+    </EditText>
+
 </android.support.constraint.ConstraintLayout>
