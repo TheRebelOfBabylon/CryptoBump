@@ -3,9 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CryptoBump.iml" filepath="$PROJECT_DIR$/CryptoBump.iml" />
-      <module fileurl="file://C:\Users\Dank\Documents\GitHub\CryptoBump\CryptoBump.iml" filepath="C:\Users\Dank\Documents\GitHub\CryptoBump\CryptoBump.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\Users\Dank\Documents\GitHub\CryptoBump\app\app.iml" filepath="C:\Users\Dank\Documents\GitHub\CryptoBump\app\app.iml" />
     </modules>
   </component>
 </project>

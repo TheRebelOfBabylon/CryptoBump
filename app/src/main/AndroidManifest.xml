@@ -23,9 +23,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".SecuritySetupActivity" />
         </activity>
-  
-        <activity android:name=".SetPinActivity" />
-        <activity android:name=".TouchIDActivity"></activity>
+        <activity android:name=".TouchIDActivity"/>
     </application>
 
 </manifest>
