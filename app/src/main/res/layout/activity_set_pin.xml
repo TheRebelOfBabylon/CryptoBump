@@ -54,8 +54,6 @@
         android:layout_height="53dp"
         android:layout_marginTop="84dp"
         android:ems="10"
-        android:focusable="true"
-        android:focusableInTouchMode="true"
         android:inputType="numberPassword"
         android:maxLength="1"
         android:textAlignment="center"
@@ -68,5 +66,15 @@
             //Makes app focus here first
         </requestFocus>
     </EditText>
+
+    <TextView
+        android:id="@+id/SetPintextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Set Your Pin"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
