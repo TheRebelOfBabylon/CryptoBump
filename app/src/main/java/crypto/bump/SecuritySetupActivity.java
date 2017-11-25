@@ -13,7 +13,7 @@ public class SecuritySetupActivity extends AppCompatActivity {
         setContentView(R.layout.activity_security_setup);
     }
 
-    //Function to start Set Pin Activity once Set Pin button is cooled
+    //Function to start Set Pin Activity once Set Pin button is clicked
     public void setPIN(View view) {
         Intent intent = new Intent(this, SetPinActivity.class);
         startActivity(intent);

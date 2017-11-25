@@ -42,7 +42,7 @@ public class SetPinActivity extends AppCompatActivity {
 
                 if(editText1.getText().toString().length()==1)
                 {
-                    Pass[1] = editText1.getEditableText().toString();
+                    Pass[0] = editText1.getEditableText().toString();
                     editText2.requestFocus();
 
                 }//end if
@@ -65,7 +65,7 @@ public class SetPinActivity extends AppCompatActivity {
 
                 if(editText2.getText().toString().length()==1){
 
-                    Pass[2] = editText2.getEditableText().toString();
+                    Pass[1] = editText2.getEditableText().toString();
                     editText3.requestFocus();
 
                 }//end if
@@ -89,7 +89,7 @@ public class SetPinActivity extends AppCompatActivity {
 
                 if(editText3.getText().toString().length()==1){
 
-                    Pass[3] = editText3.getEditableText().toString();
+                    Pass[2] = editText3.getEditableText().toString();
                     editText4.requestFocus();
 
                 }//end if
@@ -111,22 +111,22 @@ public class SetPinActivity extends AppCompatActivity {
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
 
-                Pass[4] = editText4.getEditableText().toString();
+                Pass[3] = editText4.getEditableText().toString();
             }
 
             @Override
             public void afterTextChanged(Editable editable) {
 
-                Intent i=new Intent(SetPinActivity.this,SecondActivity.class);
+                Intent i=new Intent(SetPinActivity.this,ConfirmPINActivity.class);
                 startActivity(i);
-                SetPinActivity.confirmPINActivity();
+                confirmPINActivity();
 
             }
         });
 
     }
 
-    public void confirmPINActivity(View view) {
+    public void confirmPINActivity() {
         Intent intent = new Intent(this, ConfirmPINActivity.class);
         startActivity(intent);
     }

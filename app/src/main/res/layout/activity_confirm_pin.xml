@@ -6,4 +6,79 @@
     android:layout_height="match_parent"
     tools:context="crypto.bump.ConfirmPINActivity">
 
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="66dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="84dp"
+        android:ems="10"
+        android:inputType="numberPassword"
+        android:maxLength="1"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/editText7"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/editText5"
+        app:layout_constraintTop_toTopOf="parent">
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="66dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="84dp"
+        android:ems="10"
+        android:inputType="numberPassword"
+        android:maxLength="1"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/editText8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/editText6"
+        app:layout_constraintTop_toTopOf="parent">
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="66dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="84dp"
+        android:ems="10"
+        android:inputType="numberPassword"
+        android:maxLength="1"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/editText7"
+        app:layout_constraintTop_toTopOf="parent">
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="66dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="84dp"
+        android:ems="10"
+        android:inputType="numberPassword"
+        android:maxLength="1"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/editText6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <requestFocus>-
+            //Makes app focus here first
+        </requestFocus>
+    </EditText>
+
+    <TextView
+        android:id="@+id/setPintextView"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_marginTop="40dp"
+        android:text="Confirm Your Pin"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
